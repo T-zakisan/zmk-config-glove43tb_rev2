@@ -93,19 +93,19 @@ layers:
   - KP 7
   - KP 8
   - KP 9
-  - +
-  - ^
+  - {t: ;, h: sticky}
+  - '='
   - '&'
   - '~'
-  - (
-  - )
+  - {t: '8', h: sticky}
+  - {t: '9', h: sticky}
   - /
   - KP 4
   - KP 5
   - KP 6
-  - '*'
+  - {t: '8', h: sticky}
   - Ctl+Alt+KP 0
-  - _
+  - {t: INT1, h: sticky}
   - '!'
   - '@'
   - '#'
@@ -116,12 +116,12 @@ layers:
   - KP 2
   - KP 3
   - .
-  - '='
+  - {t: '-', h: sticky}
   - {t: ▽, type: trans}
-  - '['
   - ']'
-  - '{'
+  - \
   - '}'
+  - {t: INT3, h: sticky}
   - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -131,7 +131,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '|'
+  - {t: \, h: sticky}
   ARROW:
   - ESCAPE
   - Ctl+Sft+TAB
@@ -316,6 +316,6 @@ combos:
 - p: [11, 10]
   k: '&to_layer_0 INT_MUHENKAN'
 - p: [20, 21]
-  k: '"'
+  k: {t: '2', h: sticky}
 - p: [24, 25]
   k: '='
