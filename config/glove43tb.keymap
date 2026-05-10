@@ -60,7 +60,7 @@
         };
 
         double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
+            bindings = <&sk N2>;
             key-positions = <20 21>;
         };
 
@@ -131,10 +131,10 @@
 
         NUM {
             bindings = <
-&kp MINUS                &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                   &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp SLASH                &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT
-&mt LEFT_SHIFT NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
-&trans                   &trans           &trans           &trans           &trans        &trans                       &trans          &trans                                                                     &kp PIPE
+&kp MINUS                &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &sk SEMI                                           &kp EQUAL        &kp AMPERSAND  &kp TILDE        &sk N8      &sk N9
+&kp SLASH                &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &sk N8      &kp LC(LA(KP_NUMBER_0))      &sk INT1  &kp EXCLAMATION  &kp AT_SIGN    &kp HASH         &kp DOLLAR  &kp PERCENT
+&mt LEFT_SHIFT NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD  &sk MINUS                    &trans    &kp RBKT         &kp BACKSLASH  &kp RIGHT_BRACE  &sk INT3    &kp BACKSLASH
+&trans                   &trans           &trans           &trans           &trans      &trans                       &trans    &trans                                                       &sk BACKSLASH
             >;
         };
 
