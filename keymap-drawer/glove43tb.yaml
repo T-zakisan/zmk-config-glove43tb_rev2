@@ -121,7 +121,7 @@ layers:
   - ']'
   - \
   - '}'
-  - Sft+]
+  - Sft+Ctl+INT3
   - INTERNATIONAL 3
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
