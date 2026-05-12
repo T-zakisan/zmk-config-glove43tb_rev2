@@ -97,8 +97,8 @@ layers:
   - '='
   - '&'
   - '~'
-  - {t: '8', h: sticky}
-  - {t: '9', h: sticky}
+  - Sft+8
+  - Sft+9
   - /
   - KP 4
   - KP 5
@@ -121,8 +121,8 @@ layers:
   - ']'
   - \
   - '}'
-  - {t: INT3, h: sticky}
-  - \
+  - Sft+INT3
+  - INTERNATIONAL 3
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -131,7 +131,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: \, h: sticky}
+  - Sft+INT3
   ARROW:
   - ESCAPE
   - Ctl+Sft+TAB
