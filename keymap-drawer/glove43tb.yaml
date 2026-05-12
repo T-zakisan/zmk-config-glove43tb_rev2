@@ -105,7 +105,7 @@ layers:
   - KP 6
   - {t: '8', h: sticky}
   - Ctl+Alt+KP 0
-  - INT1
+  - Sft+INT1
   - '!'
   - '@'
   - '#'
