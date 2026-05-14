@@ -39,10 +39,10 @@ layers:
   - LEFT WIN
   - LEFT ALT
   - {t: '&to_layer_0 INT_HENKAN', h: '6'}
-  - {t: SPACE, h: NUM}
-  - {t: '&to_layer_0 INT_MUHENKAN', h: ARROW}
+  - {t: SPACE, h: FUNCTION}
+  - {t: '&to_layer_0 GRAVE', h: MOUSE}
   - BACKSPACE
-  - {t: ENTER, h: FUNCTION}
+  - {t: ENTER, h: MOUSE}
   - DEL
   FUNCTION:
   - {t: ▽, type: trans}
@@ -83,10 +83,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - F12
   NUM:
   - '-'
@@ -127,7 +127,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -172,7 +172,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -216,7 +216,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
