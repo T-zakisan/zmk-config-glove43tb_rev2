@@ -131,10 +131,10 @@
 
         NUM {
             bindings = <
-&kp MINUS                &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &sk SEMI                                               &kp EQUAL        &kp LS(N6)     &kp LS(EQUAL)    &kp LS(N8)        &kp LS(N9)
-&kp SLASH                &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &sk N8      &kp LC(LA(KP_NUMBER_0))      &kp LS(INT1)  &kp EXCLAMATION  &kp LBKT       &kp HASH         &kp DOLLAR        &kp PERCENT
-&mt LEFT_SHIFT NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD  &sk MINUS                    &trans        &kp RBKT         &kp BACKSLASH  &kp RIGHT_BRACE  &kp LS(LC(INT3))  &kp INTERNATIONAL_3
-&trans                   &trans           &trans           &trans           &trans      &trans                       &trans        &trans                                                             &kp LS(INT3)
+&kp MINUS                &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp LS(SEMI)                                              &kp EQUAL        &kp LS(N6)     &kp LS(EQUAL)    &kp LS(N8)    &kp LS(N9)
+&kp SLASH                &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp RS(COLON)  &kp LC(LA(KP_NUMBER_0))      &kp LS(INT1)  &kp EXCLAMATION  &kp LBKT       &kp HASH         &kp DOLLAR    &kp PERCENT
+&mt LEFT_SHIFT NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD     &kp LS(MINUS)                &trans        &kp RBKT         &kp BACKSLASH  &kp RIGHT_BRACE  &kp LS(INT3)  &kp INTERNATIONAL_3
+&trans                   &trans           &trans           &trans           &trans         &trans                       &trans        &trans                                                         &kp LS(INT3)
             >;
         };
 
