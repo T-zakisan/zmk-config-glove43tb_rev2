@@ -93,7 +93,7 @@ layers:
   - KP 7
   - KP 8
   - KP 9
-  - {t: ;, h: sticky}
+  - Sft+;
   - '='
   - Sft+6
   - Sft+=
@@ -103,7 +103,7 @@ layers:
   - KP 4
   - KP 5
   - KP 6
-  - {t: '8', h: sticky}
+  - 'Sft+:'
   - Ctl+Alt+KP 0
   - Sft+INT1
   - '!'
@@ -116,12 +116,12 @@ layers:
   - KP 2
   - KP 3
   - .
-  - {t: '-', h: sticky}
+  - Sft+-
   - {t: ▽, type: trans}
   - ']'
   - \
   - '}'
-  - Sft+Ctl+INT3
+  - Sft+INT3
   - INTERNATIONAL 3
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
