@@ -103,7 +103,7 @@ layers:
   - KP 4
   - KP 5
   - KP 6
-  - 'Sft+:'
+  - Sft+'
   - Ctl+Alt+KP 0
   - Sft+INT1
   - '!'
