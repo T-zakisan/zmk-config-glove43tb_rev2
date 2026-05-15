@@ -90,9 +90,9 @@ layers:
   - F12
   NUM:
   - '-'
-  - KP 7
-  - KP 8
-  - KP 9
+  - '7'
+  - '8'
+  - '9'
   - Sft+;
   - '='
   - Sft+6
@@ -100,9 +100,9 @@ layers:
   - Sft+8
   - Sft+9
   - /
-  - KP 4
-  - KP 5
-  - KP 6
+  - '4'
+  - '5'
+  - '6'
   - Sft+'
   - Ctl+Alt+KP 0
   - Sft+INT1
@@ -112,9 +112,9 @@ layers:
   - $
   - '%'
   - {t: '0', h: LEFT SHIFT}
-  - KP 1
-  - KP 2
-  - KP 3
+  - '1'
+  - '2'
+  - '3'
   - .
   - Sft+-
   - {t: ▽, type: trans}
