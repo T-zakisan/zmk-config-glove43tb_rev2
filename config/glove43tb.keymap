@@ -46,12 +46,12 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <17 18>;
+            key-positions = <18 19>;
         };
 
         shift_tab {
             bindings = <&kp LS(TAB)>;
-            key-positions = <18 19>;
+            key-positions = <19 20>;
         };
     };
 
@@ -95,9 +95,9 @@
         default_layer {
             bindings = <
 &kp Q             &kp W         &kp E         &kp R                        &kp T                                                              &kp Y        &kp U  &lt 4 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F                        &kp G                   &kp LS(LG(S))               &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B                   &kp COLON                   &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 5 INT_HENKAN  &lt_to_layer_0 1 SPACE  &lt_to_layer_0 2 GRAVE      &kp BACKSPACE  &lt 3 ENTER                             &kp DEL
+&kp A             &kp S         &kp D         &kp F                        &kp G                   &kp LS(LG(S))               &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp DOUBLE_QUOTES
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B                   &kp HASH                    &kp COLON      &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt_to_layer_0 1 SPACE  &lt_to_layer_0 2 GRAVE      &kp BACKSPACE  &lt 5 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&mouse_wheel_scroll SCRL_DOWN SCRL_UP>;
@@ -141,7 +141,16 @@
             >;
         };
 
-        layer_6 {
+        Charcter {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+            >;
+        };
+
+        layer6 {
             bindings = <
 &trans  &trans        &trans        &trans        &trans                               &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
 &trans  &trans        &trans        &trans        &trans    &trans        &trans       &trans        &trans        &trans        &trans        &trans
