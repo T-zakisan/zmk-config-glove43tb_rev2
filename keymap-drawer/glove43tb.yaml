@@ -73,7 +73,7 @@ layers:
   - '3'
   - .
   - Sft+=
-  - MENU
+  - Sft+F10
   - ''
   - F1
   - F2
