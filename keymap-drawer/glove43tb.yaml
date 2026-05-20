@@ -42,7 +42,7 @@ layers:
   - {t: '&to_layer_0 SPACE', h: NUM_Func}
   - {t: '&to_layer_0 GRAVE', h: ARROW}
   - BACKSPACE
-  - {t: ENTER, h: Charcter}
+  - {t: ENTER, h: MOUSE}
   - DEL
   NUM_Func:
   - '-'
@@ -174,7 +174,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   SCROLL:
   - {t: ▽, type: trans}
@@ -262,7 +262,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   layer6:
   - {t: ▽, type: trans}
