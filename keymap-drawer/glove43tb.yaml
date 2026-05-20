@@ -93,36 +93,36 @@ layers:
   - Ctl+Sft+TAB
   - UP ARROW
   - Ctl+TAB
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - PAGE UP
+  - UP ARROW
+  - HOME
+  - ''
   - HOME
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
   - END
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PRINTSCREEN
+  - UNDO
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
+  - ''
   - LEFT SHIFT
   - Gui+Sft+LEFT ARROW
   - ''
   - Gui+Sft+RIGHT ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - Sft+F10
+  - AC SAVE
+  - PAGE DOWN
+  - ''
+  - END
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
