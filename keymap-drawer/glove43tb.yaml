@@ -229,7 +229,7 @@ layers:
   - Sft+8
   - Sft+9
   - {t: ']', type: held}
-  - INT3
+  - ']'
   - ''
   - Sft+4
   - Sft+5
@@ -239,7 +239,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Sft+]
-  - Sft+INT3
+  - Sft+]
   - Sft+,
   - Sft+.
   - {t: ▽, type: trans}
