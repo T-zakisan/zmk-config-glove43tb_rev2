@@ -229,7 +229,7 @@ layers:
   - Sft+8
   - Sft+9
   - {t: ']', type: held}
-  - ']'
+  - \
   - ''
   - Sft+4
   - Sft+5
@@ -237,24 +237,24 @@ layers:
   - INTERNATIONAL 1
   - '='
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
   - Sft+]
-  - Sft+]
+  - ']'
   - Sft+,
   - Sft+.
-  - {t: ▽, type: trans}
+  - ''
   - Sft+=
-  - '7'
+  - Sft+6
   - ;
   - .
   - /
   - ''
-  - {t: ▽, type: trans}
+  - ''
   - Sft+;
   - '-'
   - Sft+'
   - Sft+-
-  - {t: ▽, type: trans}
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
