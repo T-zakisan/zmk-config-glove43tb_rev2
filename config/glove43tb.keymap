@@ -143,10 +143,10 @@
 
         Charcter {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&kp LS(N1)     &kp LS(SLASH)  &kp LS(INT1)             &kp LS(C_KBIA_NEXT_GRP)  &kp LS(LBKT)                      &trans  &trans  &trans  &trans  &trans
+&kp LS(N4)     &kp LS(N5)     &kp LS(INTERNATIONAL_3)  &kp INTERNATIONAL_1      &kp EQUAL     &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&kp LS(EQUAL)  &kp N7         &kp SEMI                 &kp PERIOD               &kp SLASH     &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans         &trans         &trans                   &trans                   &trans        &trans      &trans  &trans                          &trans
             >;
         };
 
