@@ -224,13 +224,13 @@ layers:
   - Sft+1
   - Sft+/
   - Sft+INT1
-  - Sft+KBIA NEXT GRP
+  - Sft+6
   - Sft+[
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+8
+  - Sft+9
+  - {t: ']', type: held}
+  - INT3
+  - ''
   - Sft+4
   - Sft+5
   - Sft+INTERNATIONAL 3
@@ -238,22 +238,22 @@ layers:
   - '='
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+]
+  - Sft+INT3
+  - Sft+,
+  - Sft+.
   - {t: ▽, type: trans}
   - Sft+=
   - '7'
   - ;
   - .
   - /
+  - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+;
+  - '-'
+  - Sft+'
+  - Sft+-
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
